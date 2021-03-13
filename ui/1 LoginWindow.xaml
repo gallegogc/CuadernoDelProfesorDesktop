@@ -1,0 +1,32 @@
+﻿<Window x:Name="LoginWindow1" x:Class="CUADERNODELPROFESOR.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CUADERNODELPROFESOR"
+        mc:Ignorable="d"
+        Title="Cuaderno del Profesor (Inicio de sesión)" Height="619.437" Width="400.897" ResizeMode="CanMinimize" Icon="../assets/icon.png" WindowStartupLocation="CenterScreen" Background="{x:Null}" Closing="Window_Closing">
+
+
+
+
+    <Grid Background="#FF6A6A6A">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Canvas HorizontalAlignment="Left" Height="311" Margin="26,166,0,0" VerticalAlignment="Top" Width="337" Background="#FFD5D5D5">
+            <Label Content="Usuario" Canvas.Left="25" Canvas.Top="28" Height="36" Width="285" FontWeight="Bold" FontSize="22"/>
+            <TextBox x:Name="txtUserLogin" Height="39" Canvas.Left="25" TextWrapping="Wrap" Canvas.Top="66" Width="285"/>
+            <PasswordBox x:Name="txtPassLogin" Canvas.Left="25" Canvas.Top="164" Width="285"/>
+            <Label Content="Contraseña" Canvas.Left="25" Canvas.Top="126" Height="36" Width="285" FontWeight="Bold" FontSize="22"/>
+            <Button Content="INICIAR SESIÓN" Canvas.Left="25" Canvas.Top="220" Width="285" Height="64" Foreground="#FFD5D5D5" FontFamily="Game Played" FontSize="24" Background="#FF6A6A6A" Click="loginClick"/>
+        </Canvas>
+        <Canvas HorizontalAlignment="Left" Height="60" Margin="26,496,0,0" VerticalAlignment="Top" Width="337" Background="#FFD5D5D5">
+            <Label Content="Clique" Canvas.Left="10" Canvas.Top="10" Height="40" Width="80" FontSize="22"/>
+            <Label Content="aquí" Canvas.Left="81" Canvas.Top="10" Height="40" Width="70" FontWeight="Bold" Background="{x:Null}" Foreground="#FFD820C8" FontSize="22" RenderTransformOrigin="0.243,0.375" MouseLeftButtonUp="registroClick" />
+            <Label Content="para darse de alta" Canvas.Left="135" Canvas.Top="10" Height="40" Width="209" FontSize="22"/>
+        </Canvas>
+        <Image HorizontalAlignment="Left" Height="136" Margin="0,25,0,0" VerticalAlignment="Top" Width="372" Panel.ZIndex="1" Source="../assets/wall-login.png"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,34 @@
+﻿<Window x:Name="TareasAltaWindow1" x:Class="CUADERNODELPROFESOR.TareasAltaWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CUADERNODELPROFESOR"
+        mc:Ignorable="d"
+        Title="Cuaderno del Profesor (Programar tareas)" Height="630.026" Width="389.152" Icon="../assets/icon.png" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen">
+    <Grid Background="#FF6A6A6A">
+        <Canvas Margin="21,504,0,0" Background="#FFD5D5D5" HorizontalAlignment="Left" Width="337" Height="77" VerticalAlignment="Top">
+            <Button Content="PROGRAMAR TAREA" Canvas.Left="10" Canvas.Top="10" Background="#FF639765" Height="57" Width="317" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#FFD5D5D5" FontFamily="Game Played" FontSize="22" Click="programarTarea"/>
+        </Canvas>
+        <ScrollViewer Margin="21,178,0,0" Background="#FFD5D5D5" Height="309" VerticalAlignment="Top" HorizontalAlignment="Left" Width="337">
+            <Canvas Height="413" Width="308">
+                <Label Content="Asignatura" Canvas.Left="10" Canvas.Top="7" Height="36" Width="285" FontWeight="Bold" FontSize="22"/>
+                <TextBox x:Name="txtNombreAsignaturaTarea" Height="39" Canvas.Left="10" TextWrapping="Wrap" Canvas.Top="44" Width="288" Background="White" IsEnabled="False"/>
+                <Label Content="Nombre de la tarea" Canvas.Left="10" Canvas.Top="84" Height="36" Width="285" FontWeight="Bold" FontSize="22"/>
+                <TextBox x:Name="txtNombreTarea" Canvas.Top="125" Width="288" Height="39" Canvas.Left="10"/>
+                <Label Content="Tipo de tarea" FontWeight="Bold" FontSize="22" Height="36" Canvas.Left="10" Canvas.Top="161" Width="285"/>
+                <ComboBox x:Name="cbTipoTarea" Width="288" Canvas.Left="10" Canvas.Top="202" Height="39">
+                    <ComboBoxItem>Examen</ComboBoxItem>
+                    <ComboBoxItem>Trabajo</ComboBoxItem>
+                    <ComboBoxItem>Actividad</ComboBoxItem>
+                </ComboBox>
+                <Label Content="Fecha de entrega" FontWeight="Bold" FontSize="22" Height="36" Canvas.Left="10" Canvas.Top="238" Width="288"/>
+                <DatePicker x:Name="dateTimePickerFecha" Canvas.Left="10" Canvas.Top="279" Height="42" Width="288" FontSize="22"/>
+                <Label Content="Valoración" FontWeight="Bold" FontSize="22" Height="36" Canvas.Left="13" Canvas.Top="321" Width="285"/>
+                <TextBox x:Name="txtValoracionTarea" Canvas.Top="362" Width="288" Height="39" Canvas.Left="10"/>
+            </Canvas>
+        </ScrollViewer>
+        <Image Height="151" Margin="25,20,-14,0" VerticalAlignment="Top" Panel.ZIndex="1" Source="../assets/wall-programar-tarea.png" HorizontalAlignment="Left" Width="372"/>
+
+    </Grid>
+</Window>

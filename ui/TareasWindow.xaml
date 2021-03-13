@@ -1,0 +1,35 @@
+﻿<Window x:Name="TareasWindows1" x:Class="CUADERNODELPROFESOR.TareasWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CUADERNODELPROFESOR"
+        mc:Ignorable="d"
+        Title="Cuaderno del Profesor (Ficha de tarea)" Height="630.026" Width="389.152" Icon="../assets/icon.png" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen">
+    <Grid Background="#FF6A6A6A">
+        <Canvas Margin="23,504,0,0" Background="#FFD5D5D5" HorizontalAlignment="Left" Width="337" Height="78" VerticalAlignment="Top">
+            <Button Content="MODIFICAR" Canvas.Left="10" Canvas.Top="10" Background="#FF979563" Height="56" Width="152" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#FFD5D5D5" FontFamily="Game Played" FontSize="20" Click="editarTarea"/>
+            <Button Content="ELIMINAR" Canvas.Left="174" Canvas.Top="10" Background="#FF976363" Height="56" Width="153" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#FFD5D5D5" FontFamily="Game Played" FontSize="20" Click="eliminarTarea"/>
+        </Canvas>
+        <ScrollViewer Margin="23,178,0,0" Background="#FFD5D5D5" Height="309" VerticalAlignment="Top" HorizontalAlignment="Left" Width="337">
+            <Canvas Height="413" Width="308">
+                <Label Content="Asignatura" Canvas.Left="10" Canvas.Top="7" Height="42" Width="285" FontWeight="Bold" FontSize="22"/>
+                <TextBox x:Name="txtNombreAsignaturaTarea" Height="39" Canvas.Left="10" TextWrapping="Wrap" Canvas.Top="44" Width="288" Background="White" IsEnabled="False" IsReadOnly="True"/>
+                <Label Content="Nombre de la tarea" Canvas.Left="10" Canvas.Top="84" Height="36" Width="285" FontWeight="Bold" FontSize="22"/>
+                <TextBox x:Name="txtNombreTarea1" Canvas.Top="125" Width="288" Height="39" Canvas.Left="10" IsEnabled="False" IsReadOnly="True"/>
+                <Label Content="Tipo de tarea" FontWeight="Bold" FontSize="22" Height="36" Canvas.Left="10" Canvas.Top="161" Width="285"/>
+                <ComboBox x:Name="cbTipoTarea" Width="288" Canvas.Left="10" Canvas.Top="202" Height="39" IsEnabled="False" IsReadOnly="True">
+                    <ComboBoxItem>Examen</ComboBoxItem>
+                    <ComboBoxItem>Trabajo</ComboBoxItem>
+                    <ComboBoxItem>Actividad</ComboBoxItem>
+                </ComboBox>
+                <Label Content="Fecha de entrega" FontWeight="Bold" FontSize="22" Height="36" Canvas.Left="10" Canvas.Top="238" Width="288"/>
+                <DatePicker x:Name="dateTimePickerFecha" Canvas.Left="10" Canvas.Top="279" Height="42" Width="288" FontSize="22" IsEnabled="False"/>
+                <Label Content="Valoración" FontWeight="Bold" FontSize="22" Height="36" Canvas.Left="13" Canvas.Top="321" Width="285"/>
+                <TextBox x:Name="txtValoracionTarea" Canvas.Top="362" Width="288" Height="39" Canvas.Left="10" IsEnabled="False" IsReadOnly="True"/>
+            </Canvas>
+        </ScrollViewer>
+        <Image Height="151" Margin="7,20,0,0" VerticalAlignment="Top" Panel.ZIndex="1" Source="../assets/wall-ficha-tarea.png" HorizontalAlignment="Left" Width="355"/>
+
+    </Grid>
+</Window>

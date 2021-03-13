@@ -1,0 +1,51 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CUADERNODELPROFESOR"
+        xmlns:System="clr-namespace:System;assembly=mscorlib" x:Name="AlumnosPerfilWindow1" x:Class="CUADERNODELPROFESOR.AlumnosPerfilWindow"
+        mc:Ignorable="d"
+        Title="Cuaderno del Profesor (Ficha de alumno)" Height="589.026" Width="1118.039" Icon="../assets/icon.png" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen">
+    <Grid Background="#FF6A6A6A">
+        <Image Margin="-18,15,737,430" Source="../assets/wall-datos-alumno.png"/>
+        <ScrollViewer Margin="23,148,0,0" Background="#FFD5D5D5" Height="289" VerticalAlignment="Top" HorizontalAlignment="Left" Width="327">
+            <Canvas Height="414" Width="308">
+                <Label Content="Nombre" Canvas.Left="10" Canvas.Top="7" Height="36" Width="285" FontWeight="Bold" FontSize="22"/>
+                <TextBox x:Name="txtNombrePerfilAlumno" Height="39" Canvas.Left="10" TextWrapping="Wrap" Canvas.Top="44" Width="288" Background="White" IsEnabled="False" IsReadOnly="True"/>
+                <Label Content="Apellidos" Canvas.Left="10" Canvas.Top="84" Height="36" Width="285" FontWeight="Bold" FontSize="22"/>
+                <TextBox x:Name="txtApellidosPerfilAlumno" Height="39" Canvas.Left="10" Canvas.Top="125" Width="288" IsEnabled="False" IsReadOnly="True"/>
+                <Label Content="Dirección" FontWeight="Bold" FontSize="22" Height="36" Canvas.Left="10" Canvas.Top="161" Width="285"/>
+                <TextBox x:Name="txtDireccionPerfilAlumno" Canvas.Top="202" Width="288" Height="39" Canvas.Left="10" IsEnabled="False" IsReadOnly="True"/>
+                <Label Content="Teléfono" FontWeight="Bold" FontSize="22" Height="36" Canvas.Left="13" Canvas.Top="238" Width="285"/>
+                <TextBox x:Name="txtTelefonoPerfilAlumno" Height="39" Canvas.Left="13" TextWrapping="Wrap" Canvas.Top="277" Width="285" Background="White" IsEnabled="False" IsReadOnly="True"/>
+                <Label Content="Email" FontWeight="Bold" FontSize="22" Height="36" Canvas.Left="13" Canvas.Top="321" Width="285"/>
+                <TextBox x:Name="txtEmailPerfilAlumno" Height="39" Canvas.Left="13" TextWrapping="Wrap" Canvas.Top="357" Width="285" Background="White" IsEnabled="False" IsReadOnly="True"/>
+            </Canvas>
+        </ScrollViewer>
+        <Canvas Margin="23,454,0,0" Background="#FFD5D5D5" Height="80" VerticalAlignment="Top" HorizontalAlignment="Left" Width="327">
+            <Button Content="MODIFICAR" Canvas.Left="10" Canvas.Top="10" Background="#FF959763" Height="60" Width="142" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#FFD5D5D5" FontFamily="Game Played" FontSize="20" Click="editarAlumno"/>
+            <Button Content="ELIMINAR" Canvas.Left="168" Canvas.Top="10" Background="#FF976363" Height="60" Width="149" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#FFD5D5D5" FontFamily="Game Played" FontSize="20" Click="eliminarAlumno"/>
+        </Canvas>
+        <GridSplitter HorizontalAlignment="Left" Margin="739,10,0,0" Width="5" Height="533" VerticalAlignment="Top"/>
+        <Image Margin="378,-2,378,415" Source="../assets/wall-asignaturas-matriculadas.png"/>
+        <DataGrid x:Name="dgMatriculasPerfilAlumno" HorizontalAlignment="Left" Height="289" Margin="394,148,0,0" VerticalAlignment="Top" Width="326" ItemsSource="{Binding MatriculasAdapterList}"  AutoGeneratingColumn="camposGridMatriculas" IsReadOnly="True"/>
+        <Canvas Margin="394,454,0,0" Background="#FFD5D5D5" HorizontalAlignment="Left" Width="326" Height="80" VerticalAlignment="Top">
+            <Button Content="DESMATRICULAR" Canvas.Left="10" Canvas.Top="10" Background="#FF976363" Height="60" Width="306" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#FFD5D5D5" FontFamily="Game Played" FontSize="20" Click="desmatricular"/>
+        </Canvas>
+        <GridSplitter HorizontalAlignment="Left" Margin="370,10,0,0" Width="5" Height="533" VerticalAlignment="Top"/>
+        <Image Margin="761,12,26,425" Source="../assets/wall-tareas-notas.png"/>
+        <Canvas Margin="763,148,0,0" Background="#FFD5D5D5" Height="268" VerticalAlignment="Top" HorizontalAlignment="Left" Width="327">
+            <Label Canvas.Left="10" Canvas.Top="7" Height="39" Width="285" FontWeight="Bold" FontSize="22" Content="Elija una asignatura"/>
+            <ComboBox x:Name="cbAsignaturasMatriculadas" Width="307" Canvas.Left="10" Canvas.Top="46" SelectionChanged="actualizarCBTareas"/>
+            <Label Content="Elija una tarea" Canvas.Left="10" Canvas.Top="88" Height="41" Width="285" FontWeight="Bold" FontSize="22"/>
+            <ComboBox x:Name="cbTareasAsignaturasMatriculadas" Width="307" Canvas.Left="10" Canvas.Top="130" SelectionChanged="actualizarNota"/>
+            <Label Content="Indique la nota" FontWeight="Bold" FontSize="22" Height="41" Canvas.Left="10" Canvas.Top="179" Width="285" />
+            <TextBox x:Name="txtNotaPerfilAlumno" Canvas.Top="217" Width="307" Height="39" Canvas.Left="10" />
+        </Canvas>
+        <Canvas Margin="762,454,0,0" Background="#FFD5D5D5" HorizontalAlignment="Left" Width="328" Height="80" VerticalAlignment="Top">
+            <Button Content="PONER / EDITAR NOTA" Canvas.Left="10" Canvas.Top="10" Background="#FF639765" Height="60" Width="308" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#FFD5D5D5" FontFamily="Game Played" FontSize="20" Click="ponerNota"/>
+        </Canvas>
+
+    </Grid>
+</Window>

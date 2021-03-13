@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CUADERNODELPROFESOR", "CUADERNODELPROFESOR.csproj", "{F59756DE-E35E-4D45-9324-12C10B4C9145}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Default = Debug|Default
+		Release|Any CPU = Release|Any CPU
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F59756DE-E35E-4D45-9324-12C10B4C9145}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F59756DE-E35E-4D45-9324-12C10B4C9145}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F59756DE-E35E-4D45-9324-12C10B4C9145}.Debug|Default.ActiveCfg = Debug|Any CPU
+		{F59756DE-E35E-4D45-9324-12C10B4C9145}.Debug|Default.Build.0 = Debug|Any CPU
+		{F59756DE-E35E-4D45-9324-12C10B4C9145}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F59756DE-E35E-4D45-9324-12C10B4C9145}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F59756DE-E35E-4D45-9324-12C10B4C9145}.Release|Default.ActiveCfg = Release|Any CPU
+		{F59756DE-E35E-4D45-9324-12C10B4C9145}.Release|Default.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F716E90B-D0B9-40B3-90E3-4C4C29CE10B1}
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Default = Debug|Default
+		Release|Any CPU = Release|Any CPU
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Default = Debug|Default
+		Release|Any CPU = Release|Any CPU
+		Release|Default = Release|Default
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F59756DE-E35E-4D45-9324-12C10B4C9145}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CUADERNODELPROFESOR</RootNamespace>
+    <AssemblyName>CUADERNODELPROFESOR</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="database\models\Asignatura.cs" />
+    <Compile Include="database\models\AlumnoResponse.cs" />
+    <Compile Include="database\models\AsignaturaResponse.cs" />
+    <Compile Include="database\models\Apunte.cs" />
+    <Compile Include="database\models\Matricula.cs" />
+    <Compile Include="database\models\MatriculaResponse.cs" />
+    <Compile Include="database\models\Tarea.cs" />
+    <Compile Include="database\models\CursoResponse.cs" />
+    <Compile Include="database\models\Curso.cs" />
+    <Compile Include="database\models\LoginProfesorResponse.cs" />
+    <Compile Include="ui\AlumnosPerfilWindow.xaml.cs">
+      <DependentUpon>AlumnosPerfilWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ui\AlumnosMatricularWindow.xaml.cs">
+      <DependentUpon>AlumnosMatricularWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ui\ApuntesAltaWindow.xaml.cs">
+      <DependentUpon>ApuntesAltaWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ui\ApuntesWindow.xaml.cs">
+      <DependentUpon>ApuntesWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ui\AlumnosAltaWindow.xaml.cs">
+      <DependentUpon>AlumnosAltaWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ui\AsignaturasWindow.xaml.cs">
+      <DependentUpon>AsignaturasWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ui\AsignaturasAltaWindow.xaml.cs">
+      <DependentUpon>AsignaturasAltaWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="database\apiRest\WebService.cs" />
+    <Compile Include="database\models\Alumno.cs" />
+    <Compile Include="database\models\EstadoMensajeResponse.cs" />
+    <Compile Include="database\models\Profesor.cs" />
+    <Compile Include="ui\TareasWindow.xaml.cs">
+      <DependentUpon>TareasWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ui\TareasAltaWindow.xaml.cs">
+      <DependentUpon>TareasAltaWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ui\CursosWindow.xaml.cs">
+      <DependentUpon>CursosWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ui\CursosAltaWindow.xaml.cs">
+      <DependentUpon>CursosAltaWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ui\1 LoginWindow.xaml.cs">
+      <DependentUpon>1 LoginWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ui\2 RegistroWindow.xaml.cs">
+      <DependentUpon>2 RegistroWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="utils\Utils.cs" />
+    <Compile Include="viewmodels\MatriculasVM.cs" />
+    <Compile Include="viewmodels\TareasVM.cs" />
+    <Compile Include="viewmodels\AsignaturasVM.cs" />
+    <Compile Include="viewmodels\AlumnosVM.cs" />
+    <Compile Include="viewmodels\CursosVM.cs" />
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ui\3 MainWindow.xaml.cs">
+      <DependentUpon>3 MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <SplashScreen Include="assets\splash_art.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <ReferencePath Include="C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\packages\HamburgerMenu.0.1.0\lib\net40\HamburgerMenu.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Microsoft.CSharp.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\mscorlib.dll" />
+    <ReferencePath Include="C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\PresentationCore.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\PresentationFramework.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Core.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Data.DataSetExtensions.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Data.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Net.Http.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Windows.Forms.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Xaml.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Xml.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Xml.Linq.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\WindowsBase.dll" />
+    <ReferencePath Include="C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\packages\Extended.Wpf.Toolkit.4.0.2\lib\net40\Xceed.Wpf.AvalonDock.dll" />
+    <ReferencePath Include="C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\packages\Extended.Wpf.Toolkit.4.0.2\lib\net40\Xceed.Wpf.AvalonDock.Themes.Aero.dll" />
+    <ReferencePath Include="C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\packages\Extended.Wpf.Toolkit.4.0.2\lib\net40\Xceed.Wpf.AvalonDock.Themes.Metro.dll" />
+    <ReferencePath Include="C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\packages\Extended.Wpf.Toolkit.4.0.2\lib\net40\Xceed.Wpf.AvalonDock.Themes.VS2010.dll" />
+    <ReferencePath Include="C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\packages\Extended.Wpf.Toolkit.4.0.2\lib\net40\Xceed.Wpf.Toolkit.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\AlumnosPerfilWindow.g.cs" />
+    <Compile Include="C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\AlumnosMatricularWindow.g.cs" />
+    <Compile Include="C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\ApuntesAltaWindow.g.cs" />
+    <Compile Include="C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\ApuntesWindow.g.cs" />
+    <Compile Include="C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\AlumnosAltaWindow.g.cs" />
+    <Compile Include="C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\AsignaturasWindow.g.cs" />
+    <Compile Include="C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\AsignaturasAltaWindow.g.cs" />
+    <Compile Include="C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\TareasWindow.g.cs" />
+    <Compile Include="C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\TareasAltaWindow.g.cs" />
+    <Compile Include="C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\CursosWindow.g.cs" />
+    <Compile Include="C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\CursosAltaWindow.g.cs" />
+    <Compile Include="C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\1 LoginWindow.g.cs" />
+    <Compile Include="C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\3 MainWindow.g.cs" />
+    <Compile Include="C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\2 RegistroWindow.g.cs" />
+    <Compile Include="C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\App.g.cs" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,126 @@
+C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\bin\Debug\CUADERNODELPROFESOR.exe.config
+C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\bin\Debug\CUADERNODELPROFESOR.exe
+C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\bin\Debug\CUADERNODELPROFESOR.pdb
+C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\bin\Debug\HamburgerMenu.dll
+C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\CUADERNODELPROFESOR.csprojAssemblyReference.cache
+C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\App.g.cs
+C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\CUADERNODELPROFESOR_MarkupCompile.cache
+C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\CUADERNODELPROFESOR_MarkupCompile.lref
+C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\CUADERNODELPROFESOR.g.resources
+C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\CUADERNODELPROFESOR.Properties.Resources.resources
+C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\CUADERNODELPROFESOR.csproj.GenerateResource.cache
+C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\CUADERNODELPROFESOR.csproj.CoreCompileInputs.cache
+C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\CUADERNODELPROFESOR.csproj.CopyComplete
+C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\CUADERNODELPROFESOR.exe
+C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\CUADERNODELPROFESOR.pdb
+C:\Users\DAM210\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\bin\Debug\CUADERNODELPROFESOR.exe.config
+C:\Users\DAM210\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\bin\Debug\CUADERNODELPROFESOR.exe
+C:\Users\DAM210\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\bin\Debug\CUADERNODELPROFESOR.pdb
+C:\Users\DAM210\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\bin\Debug\HamburgerMenu.dll
+C:\Users\DAM210\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\CUADERNODELPROFESOR.csprojAssemblyReference.cache
+C:\Users\DAM210\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\App.g.cs
+C:\Users\DAM210\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\CUADERNODELPROFESOR_MarkupCompile.cache
+C:\Users\DAM210\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\CUADERNODELPROFESOR_MarkupCompile.lref
+C:\Users\DAM210\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\CUADERNODELPROFESOR.g.resources
+C:\Users\DAM210\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\CUADERNODELPROFESOR.Properties.Resources.resources
+C:\Users\DAM210\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\CUADERNODELPROFESOR.csproj.GenerateResource.cache
+C:\Users\DAM210\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\CUADERNODELPROFESOR.csproj.CoreCompileInputs.cache
+C:\Users\DAM210\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\CUADERNODELPROFESOR.csproj.CopyComplete
+C:\Users\DAM210\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\CUADERNODELPROFESOR.exe
+C:\Users\DAM210\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\CUADERNODELPROFESOR.pdb
+C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\App.baml
+C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\bin\Debug\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\bin\Debug\ja-JP\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\DAM210\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\DAM210\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\DAM210\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\DAM210\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\DAM210\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\DAM210\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\bin\Debug\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\DAM210\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\DAM210\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\DAM210\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\DAM210\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\DAM210\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\DAM210\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\bin\Debug\ja-JP\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\DAM210\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\DAM210\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\DAM210\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\DAM210\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\DAM210\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\DAM210\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\App.baml
+C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\bin\Debug\Newtonsoft.Json.dll
+C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\bin\Debug\Newtonsoft.Json.xml
+C:\Users\DAM210\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\bin\Debug\Newtonsoft.Json.dll
+C:\Users\DAM210\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\bin\Debug\Newtonsoft.Json.xml
+C:\Users\DAM210\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\1 LoginWindow.g.cs
+C:\Users\DAM210\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\1 LoginWindow.baml
+C:\Users\DAM210\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\AlumnosPerfilWindow.g.cs
+C:\Users\DAM210\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\AlumnosMatricularWindow.g.cs
+C:\Users\DAM210\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\ApuntesAltaWindow.g.cs
+C:\Users\DAM210\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\ApuntesWindow.g.cs
+C:\Users\DAM210\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\AlumnosAltaWindow.g.cs
+C:\Users\DAM210\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\AsignaturasWindow.g.cs
+C:\Users\DAM210\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\AsignaturasAltaWindow.g.cs
+C:\Users\DAM210\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\TareasWindow.g.cs
+C:\Users\DAM210\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\TareasAltaWindow.g.cs
+C:\Users\DAM210\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\CursosWindow.g.cs
+C:\Users\DAM210\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\CursosAltaWindow.g.cs
+C:\Users\DAM210\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\3 MainWindow.g.cs
+C:\Users\DAM210\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\2 RegistroWindow.g.cs
+C:\Users\DAM210\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\AlumnosPerfilWindow.baml
+C:\Users\DAM210\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\AlumnosMatricularWindow.baml
+C:\Users\DAM210\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\ApuntesAltaWindow.baml
+C:\Users\DAM210\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\ApuntesWindow.baml
+C:\Users\DAM210\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\AlumnosAltaWindow.baml
+C:\Users\DAM210\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\AsignaturasWindow.baml
+C:\Users\DAM210\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\AsignaturasAltaWindow.baml
+C:\Users\DAM210\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\TareasWindow.baml
+C:\Users\DAM210\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\TareasAltaWindow.baml
+C:\Users\DAM210\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\CursosWindow.baml
+C:\Users\DAM210\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\CursosAltaWindow.baml
+C:\Users\DAM210\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\3 MainWindow.baml
+C:\Users\DAM210\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\2 RegistroWindow.baml
+C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\AlumnosPerfilWindow.g.cs
+C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\AlumnosMatricularWindow.g.cs
+C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\ApuntesAltaWindow.g.cs
+C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\ApuntesWindow.g.cs
+C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\AlumnosAltaWindow.g.cs
+C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\AsignaturasWindow.g.cs
+C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\AsignaturasAltaWindow.g.cs
+C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\TareasWindow.g.cs
+C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\TareasAltaWindow.g.cs
+C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\CursosWindow.g.cs
+C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\CursosAltaWindow.g.cs
+C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\1 LoginWindow.g.cs
+C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\3 MainWindow.g.cs
+C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\2 RegistroWindow.g.cs
+C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\AlumnosPerfilWindow.baml
+C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\AlumnosMatricularWindow.baml
+C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\ApuntesAltaWindow.baml
+C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\ApuntesWindow.baml
+C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\AlumnosAltaWindow.baml
+C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\AsignaturasWindow.baml
+C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\AsignaturasAltaWindow.baml
+C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\TareasWindow.baml
+C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\TareasAltaWindow.baml
+C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\CursosWindow.baml
+C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\CursosAltaWindow.baml
+C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\1 LoginWindow.baml
+C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\3 MainWindow.baml
+C:\Users\galle\Dropbox\DAM\VISUAL\WPF\CUADERNODELPROFESOR\obj\Debug\ui\2 RegistroWindow.baml
